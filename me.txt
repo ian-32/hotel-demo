@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INKS HOTEL - Nairobi</title>
+
+<style>
+body { margin:0; font-family: Arial; background:#f4f4f4; }
+header {
+  background:#1a73e8;
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+header h1 { font-size:40px; margin:0; }
+.btn {
+  background:#00c853;
+  color:white;
+  padding:12px 18px;
+  text-decoration:none;
+  border-radius:5px;
+  display:inline-block;
+  margin-top:10px;
+}
+
+section { padding:20px; }
+.card {
+  background:white;
+  padding:15px;
+  margin:10px 0;
+  border-radius:10px;
+}
+
+footer {
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>INKS HOTEL</h1>
+  <p>Affordable Comfort in Nairobi CBD</p>
+  <a class="btn" href="https://wa.me/254772536365">Book on WhatsApp</a>
+</header>
+
+<section>
+  <h2>Rooms & Prices</h2>
+
+  <div class="card">
+    <h3>Single Room</h3>
+    <p>KSh 1,500 / night</p>
+  </div>
+
+  <div class="card">
+    <h3>Double Room</h3>
+    <p>KSh 2,500 / night</p>
+  </div>
+
+  <div class="card">
+    <h3>Deluxe Room</h3>
+    <p>KSh 3,500 / night</p>
+  </div>
+</section>
+
+<section>
+  <h2>Location</h2>
+  <p>📍 River Road, Nairobi CBD</p>
+
+  <iframe
+    src="https://maps.google.com/maps?q=River%20Road%20Nairobi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="300">
+  </iframe>
+</section>
+
+<section>
+  <h2>Why Stay With Us?</h2>
+  <div class="card">
+    <p>✔ Affordable rooms</p>
+    <p>✔ Clean environment</p>
+    <p>✔ 24/7 service</p>
+    <p>✔ Easy booking via WhatsApp</p>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>📞 +254 772 536 365</p>
+    <a class="btn" href="https://wa.me/254772536365">Message Us</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 INKS HOTEL Nairobi</p>
+</footer>
+
+</body>
+</html>
